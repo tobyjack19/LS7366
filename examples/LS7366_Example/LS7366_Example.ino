@@ -1,7 +1,7 @@
 #include <LS7366.h>
 #include <SPI.h>
 
-LS7366 myLS7366(8);  //8 is the chip select pin.
+LS7366 myLS7366(10);  //10 is the chip select pin.
 
 void setup() {
   Serial.begin(115200);
