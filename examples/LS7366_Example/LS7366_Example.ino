@@ -6,7 +6,7 @@ LS7366 myLS7366(10);  //10 is the chip select pin.
 void setup() {
   Serial.begin(115200);
   myLS7366.write_mode_register_0(FILTER_1 | DISABLE_INDX | FREE_RUN | QUADRX4);
-  myLS7366.write_mode_register_1(NO_FLAGS | EN_CNTR | BYTE_4 );
+  myLS7366.write_mode_register_1(NO_FLAGS | EN_CNTR | BYTE_1 );
   myLS7366.clear_counter();
   myLS7366.clear_status_register();
   myLS7366.write_data_register(4);
