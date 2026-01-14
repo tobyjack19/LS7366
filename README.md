@@ -5,7 +5,7 @@ An Arduino library to interface to the LS7366 quadrature encoder counter or Mikr
 
     Chip Select (CS) - Defined in .ino file (See example (D10 used))
 
-    SPI Clock SCK - Will be a specific pin for the given board, for Arduino Uno / Nano this is D13
+    SPI Clock (SCK) - Will be a specific pin for the given board, for Arduino Uno / Nano this is D13
 
     SPI Data Out (MISO (Master In Slave Out)) - Will be a specific pin for the given board, for Arduino Uno / Nano this is D12
 
